@@ -1,0 +1,5 @@
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Semana 06\Ejercicio práctico\Ejercicio práctico\obj\Debug\Ejercicio práctico.csprojAssemblyReference.cache
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Semana 06\Ejercicio práctico\Ejercicio práctico\bin\Debug\Ejercicio_práctico.exe
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Semana 06\Ejercicio práctico\Ejercicio práctico\bin\Debug\Ejercicio_práctico.pdb
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Semana 06\Ejercicio práctico\Ejercicio práctico\obj\Debug\Ejercicio_práctico.exe
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Semana 06\Ejercicio práctico\Ejercicio práctico\obj\Debug\Ejercicio_práctico.pdb
