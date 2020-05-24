@@ -1,0 +1,8 @@
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\VentaLibros.exe.config
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\VentaLibros.exe
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\VentaLibros.pdb
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\obj\Debug\VentaLibros.csprojAssemblyReference.cache
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\obj\Debug\VentaLibros.Properties.Resources.resources
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\obj\Debug\VentaLibros.csproj.GenerateResource.cache
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\obj\Debug\VentaLibros.exe
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\obj\Debug\VentaLibros.pdb
