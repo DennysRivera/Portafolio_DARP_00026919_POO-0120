@@ -7,6 +7,8 @@
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Conexion.cs" t="Include" />
+      <e p="ConsultaInventario.cs" t="Include" />
+      <e p="ConsultaPedido.cs" t="Include" />
       <e p="ConsultaUsuario.cs" t="Include" />
       <e p="fmrLogin.cs" t="Include" />
       <e p="fmrLogin.Designer.cs" t="Include" />
@@ -17,9 +19,11 @@
       <e p="frmRegister.cs" t="Include" />
       <e p="frmRegister.Designer.cs" t="Include" />
       <e p="frmRegister.resx" t="Include" />
+      <e p="Inventario.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="packages.config" t="Include" />
+      <e p="Pedido.cs" t="Include" />
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
@@ -28,6 +32,7 @@
         <e p="Settings.Designer.cs" t="Include" />
         <e p="Settings.settings" t="Include" />
       </e>
+      <e p="Usuario.cs" t="Include" />
       <e p="VentaLibros.csproj" t="IncludeRecursive" />
       <e p="VentaLibros.sln" t="IncludeFlat" />
     </e>
