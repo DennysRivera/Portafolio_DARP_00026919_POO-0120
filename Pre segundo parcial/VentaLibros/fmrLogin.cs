@@ -21,6 +21,7 @@ namespace VentaLibros
             }
             else
             {
+                bool flag = true;
                 try
                 {
                     foreach (var u in listaUsuarios)
@@ -29,12 +30,19 @@ namespace VentaLibros
                         {
                             if (textBox2.Text.Equals(u.contrasena))
                             {
-                                if (u.activo)
+                                if (u.activo && u.admin)
                                 {
-                                    MessageBox.Show("Bienvenido");
                                     Form1 window = new Form1(u);
                                     window.Show();
-                                    this.Hide();   
+                                    this.Hide();
+                                    flag = false;
+                                }
+                                else if (u.activo && !u.admin)
+                                {
+                                    frmCliente window = new frmCliente(u);
+                                    window.Show();
+                                    this.Hide();
+                                    flag = false;
                                 }
                                 else
                                     MessageBox.Show("Cuenta deshabilitada, favor contactarse con el administrador");
@@ -44,7 +52,7 @@ namespace VentaLibros
 
                             break;
                         }
-                        else MessageBox.Show("No se encontró el usuario");
+                        if (flag) MessageBox.Show("No se encontró el usuario");
                     }
                 }
                 catch (Exception ex)
@@ -59,6 +67,11 @@ namespace VentaLibros
         {
             frmRegister ventana = new frmRegister();
             ventana.ShowDialog();
+        }
+        
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) btnLogin_Click(sender, e);
         }
     }
 }

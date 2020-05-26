@@ -11,14 +11,5 @@ namespace VentaLibros
         public DateTime fecha_pedido { get; set; }
         
         public Pedido(){ }
-
-        public Pedido(int idPedido, int idUsuario, string nombreUsuario, int idInventario, DateTime fechaPedido)
-        {
-            id_pedido = idPedido;
-            id_usuario = idUsuario;
-            nombre_usuario = nombreUsuario;
-            id_inventario = idInventario;
-            fecha_pedido = fechaPedido;
-        }
     }
 }

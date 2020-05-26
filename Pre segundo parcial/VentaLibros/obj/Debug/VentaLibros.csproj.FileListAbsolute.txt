@@ -41,3 +41,4 @@ C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bi
 C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.WinForms.xml
 C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.Wpf.pdb
 C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\obj\Debug\VentaLibros.frmCliente.resources

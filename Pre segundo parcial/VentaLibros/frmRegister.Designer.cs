@@ -134,7 +134,6 @@ namespace VentaLibros
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(555, 432);
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmRegister_FormClosing);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -148,6 +147,7 @@ namespace VentaLibros
             this.Controls.Add(this.label1);
             this.Name = "frmRegister";
             this.Text = "frmRegister";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmRegister_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
         }

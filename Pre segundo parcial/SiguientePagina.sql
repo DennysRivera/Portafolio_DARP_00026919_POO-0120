@@ -53,3 +53,16 @@ FOREIGN KEY (nombre_usuario) REFERENCES USUARIO(usuario);
 
 INSERT INTO USUARIO(nombre, usuario, contrasena, administrador, activo)
 VALUES ('default', 'admin', '1234', TRUE, TRUE)
+
+ALTER TABLE INVENTARIO
+ALTER COLUMN precio
+TYPE INT;
+
+ALTER TABLE PEDIDO
+ADD COLUMN cantidad INT NOT NULL;
+
+ALTER TABLE PEDIDO
+ADD COLUMN cliente_nombre VARCHAR NOT NULL;
+
+ALTER TABLE PEDIDO
+ADD COLUMN 	total INT NOT NULL;

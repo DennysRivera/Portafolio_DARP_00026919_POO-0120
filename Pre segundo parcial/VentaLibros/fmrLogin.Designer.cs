@@ -77,6 +77,7 @@ namespace VentaLibros
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(202, 23);
             this.textBox2.TabIndex = 3;
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             // 
             // btnLogin
             // 
@@ -106,6 +107,7 @@ namespace VentaLibros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(542, 373);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnLogin);

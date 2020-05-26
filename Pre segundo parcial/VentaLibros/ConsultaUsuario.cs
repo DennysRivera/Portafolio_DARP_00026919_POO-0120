@@ -15,6 +15,7 @@ namespace VentaLibros
             foreach (DataRow n in dt.Rows)
             {
                 Usuario u = new Usuario();
+                u.id_usuario = Convert.ToInt32(n[0]);
                 u.nombre = n[1].ToString();
                 u.usuario = n[2].ToString();
                 u.contrasena = n[3].ToString();
@@ -34,15 +35,8 @@ namespace VentaLibros
                                      $"'{nuevo.contrasena}'," +
                                      $"{nuevo.admin}," +
                                      $"{nuevo.activo})");
-            
-            MessageBox.Show("Registro completo");
         }
-
-        public static void cambiarContrasena(string usuario, string nuevaPass)
-        {
-            Conexion.ExecuteNonQuery($"UPDATE USUARIO SET contrasena = '{nuevaPass}'" +
-                                     $"WHERE usuario = '{usuario}'");
-        }
+        
         public static void eliminarUsuario(string userName)
         {
             Conexion.ExecuteNonQuery($"DELETE FROM PEDIDO WHERE nombre_usuario = '{userName}'" +

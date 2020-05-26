@@ -29,6 +29,12 @@ namespace VentaLibros
                     if (textBox4.Text.Equals(textBox5.Text))
                     {
                         ConsultaUsuario.registrarUsuario(nuevo);
+                        MessageBox.Show("Registro completo");
+                        textBox1.Text = "";
+                        textBox2.Text = "";
+                        textBox3.Text = "";
+                        textBox4.Text = "";
+                        textBox5.Text = "";
                     }
                     else MessageBox.Show("Las contraseñas no coinciden");
                 }

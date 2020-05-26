@@ -17,6 +17,9 @@
       <e p="Form1.Designer.cs" t="Include" />
       <e p="Form1.resx" t="Include" />
       <e p="Frecuencia.cs" t="Include" />
+      <e p="frmCliente.cs" t="Include" />
+      <e p="frmCliente.Designer.cs" t="Include" />
+      <e p="frmCliente.resx" t="Include" />
       <e p="frmRegister.cs" t="Include" />
       <e p="frmRegister.Designer.cs" t="Include" />
       <e p="frmRegister.resx" t="Include" />
@@ -32,6 +35,9 @@
         <e p="Resources.resx" t="Include" />
         <e p="Settings.Designer.cs" t="Include" />
         <e p="Settings.settings" t="Include" />
+      </e>
+      <e p="Resources" t="Include">
+        <e p="logo.png" t="Include" />
       </e>
       <e p="Usuario.cs" t="Include" />
       <e p="VentaLibros.csproj" t="IncludeRecursive" />
