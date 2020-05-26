@@ -32,3 +32,12 @@ C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\ob
 C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\obj\Debug\VentaLibros.Form1.resources
 C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\obj\Debug\VentaLibros.frmRegister.resources
 C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\obj\Debug\VentaLibros.csproj.CopyComplete
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.dll
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.pdb
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.xml
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre segundo parcial\VentaLibros\bin\Debug\LiveCharts.Wpf.xml

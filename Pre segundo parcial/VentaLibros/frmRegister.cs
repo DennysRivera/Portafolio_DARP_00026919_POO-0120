@@ -12,8 +12,8 @@ namespace VentaLibros
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text.Equals("") || textBox1.Text.Equals("") || textBox1.Text.Equals("") ||
-                textBox1.Text.Equals("") || textBox1.Text.Equals(""))
+            if (textBox1.Text.Equals("") || textBox2.Text.Equals("") || textBox3.Text.Equals("") ||
+                textBox4.Text.Equals("") || textBox5.Text.Equals(""))
             {
                 MessageBox.Show("Hay campos vacíos");
             }
@@ -28,7 +28,6 @@ namespace VentaLibros
                    
                     if (textBox4.Text.Equals(textBox5.Text))
                     {
-                        //ConsultaUsuario.registrarUsuario(nuevo.nombre, nuevo.usuario, nuevo.contrasena);
                         ConsultaUsuario.registrarUsuario(nuevo);
                     }
                     else MessageBox.Show("Las contraseñas no coinciden");

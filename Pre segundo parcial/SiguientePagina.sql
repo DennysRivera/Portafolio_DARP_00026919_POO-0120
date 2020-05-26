@@ -51,4 +51,5 @@ ALTER TABLE PEDIDO
 ADD CONSTRAINT fk_pedido_usuario
 FOREIGN KEY (nombre_usuario) REFERENCES USUARIO(usuario);
 
-SELECT * FROM PEDIDO
+INSERT INTO USUARIO(nombre, usuario, contrasena, administrador, activo)
+VALUES ('default', 'admin', '1234', TRUE, TRUE)

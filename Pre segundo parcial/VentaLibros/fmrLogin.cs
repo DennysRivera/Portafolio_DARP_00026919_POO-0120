@@ -31,8 +31,9 @@ namespace VentaLibros
                             {
                                 if (u.activo)
                                 {
-                                    Form1 ventana = new Form1();
-                                    ventana.Show();
+                                    MessageBox.Show("Bienvenido");
+                                    Form1 window = new Form1(u);
+                                    window.Show();
                                     this.Hide();   
                                 }
                                 else

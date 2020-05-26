@@ -53,7 +53,7 @@ namespace VentaLibros
 
         public static void actualizarUsuario(string usuario, bool admin, bool activo)
         {
-            Conexion.ExecuteNonQuery($"UPDATE USUARIO administrador = {admin}, activo = {activo}" +
+            Conexion.ExecuteNonQuery($"UPDATE USUARIO SET administrador = {admin}, activo = {activo}" +
                                      $"WHERE usuario = '{usuario}'");
         }
     }
