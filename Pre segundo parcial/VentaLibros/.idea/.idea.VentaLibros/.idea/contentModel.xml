@@ -16,6 +16,7 @@
       <e p="Form1.cs" t="Include" />
       <e p="Form1.Designer.cs" t="Include" />
       <e p="Form1.resx" t="Include" />
+      <e p="Frecuencia.cs" t="Include" />
       <e p="frmRegister.cs" t="Include" />
       <e p="frmRegister.Designer.cs" t="Include" />
       <e p="frmRegister.resx" t="Include" />

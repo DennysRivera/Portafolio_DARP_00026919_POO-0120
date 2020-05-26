@@ -1,25 +1,37 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using LiveCharts.WinForms;
 
 namespace VentaLibros
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        private Usuario usuario;
+        private CartesianChart estadisticas;
+        public Form1(Usuario user)
         {
             InitializeComponent();
+            usuario = user;
+
+            if (usuario.admin)
+            {
+                estadisticas = new CartesianChart();
+                this.Controls.Add(estadisticas);
+                estadisticas.Parent = tabControl1.TabPages[3];
+            }
         }
 
-        private void tabPage1_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            if (usuario.admin)
+            {
+                configurarGraficos();
+                actualizarControles();
+            }
+            else
+            {
+                tabControl1.TabPages[1] = null;
+            }
         }
     }
 }

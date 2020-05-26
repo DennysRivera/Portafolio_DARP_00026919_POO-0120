@@ -93,7 +93,7 @@ namespace VentaLibros
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(225, 116);
+            this.textBox2.Location = new System.Drawing.Point(225, 117);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(198, 23);
             this.textBox2.TabIndex = 6;
@@ -107,7 +107,7 @@ namespace VentaLibros
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(225, 251);
+            this.textBox4.Location = new System.Drawing.Point(225, 252);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(198, 23);
             this.textBox4.TabIndex = 8;
@@ -134,6 +134,7 @@ namespace VentaLibros
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(555, 432);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmRegister_FormClosing);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
