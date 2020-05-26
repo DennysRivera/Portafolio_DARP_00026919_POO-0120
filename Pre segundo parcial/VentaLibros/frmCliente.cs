@@ -66,9 +66,9 @@ namespace VentaLibros
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Inventario u = new Inventario();
+            Inventario u = (Inventario) comboBox1.SelectedItem;
             DateTime fecha = DateTime.Now;
-            ConsultaPedido.agregarPedido((Inventario) comboBox1.SelectedItem, usuario, fecha, 
+            ConsultaPedido.agregarPedido(u, usuario, fecha, 
                 Convert.ToInt32(lblTotal.Text), Convert.ToInt32(numericUpDown1.Text));
         }
 
@@ -89,7 +89,7 @@ namespace VentaLibros
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             Inventario u = (Inventario) comboBox1.SelectedItem;
-            lblTotal.Text = '$' + ((numericUpDown1.Value) * u.precio).ToString();
+            lblTotal.Text = ((numericUpDown1.Value) * u.precio).ToString();
         }
 
         private void frmCliente_FormClosing(object sender, FormClosingEventArgs e)

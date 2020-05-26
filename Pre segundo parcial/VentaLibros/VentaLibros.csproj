@@ -121,7 +121,6 @@
         <Compile Include="Form1.Designer.cs">
             <DependentUpon>Form1.cs</DependentUpon>
         </Compile>
-        <Compile Include="Frecuencia.cs" />
         <Compile Include="frmCliente.cs">
           <SubType>Form</SubType>
         </Compile>

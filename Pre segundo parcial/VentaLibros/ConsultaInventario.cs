@@ -40,7 +40,7 @@ namespace VentaLibros
             Conexion.ExecuteNonQuery($"UPDATE INVENTARIO SET libro_nombre = '{libro.nombre_libro}," +
                                      $"descripcion = '{libro.descripcion}'," +
                                      $"precio = {libro.precio}," +
-                                     $"stock = {(libro.stock + extras)}" +
+                                     $"stock = {libro.stock}" +
                                      $"WHERE nombre_lirbo = '{libro.nombre_libro}'");
         }
         

@@ -8,7 +8,7 @@ namespace VentaLibros
         public int id_libro { get; set; }
         public string nombre_libro { get; set; }
         public string descripcion { get; set; }
-        public decimal precio { get; set; }
+        public int precio { get; set; }
         public int stock { get; set; }
 
         public Inventario()

@@ -192,7 +192,7 @@ namespace VentaLibros
                     Inventario nuevo = new Inventario();
                     nuevo.nombre_libro = txtNuevoL.Text;
                     nuevo.descripcion = richTextBox3.Text;
-                    nuevo.precio = (decimal) Convert.ToDouble(numericUpDown1.Text.Replace(',','.'));
+                    nuevo.precio = Convert.ToInt32(numericUpDown1.Text);
                     nuevo.stock = Convert.ToInt32(numericUpDown2.Text);
                     
                     ConsultaInventario.agregarArticulo(nuevo);
@@ -237,7 +237,7 @@ namespace VentaLibros
             
             richTextBox2.Text = i.descripcion;
             numericUpDown3.Value = Convert.ToDecimal(i.precio);
-            numericUpDown4.Value = Convert.ToInt32(i.stock);
+            numericUpDown4.Value = Convert.ToDecimal(i.stock);
         }
         
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
