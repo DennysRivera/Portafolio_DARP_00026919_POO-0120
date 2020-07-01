@@ -1,0 +1,5 @@
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre tercer parical\Ejercicio Labo 10\Ejercicio Labo 10\bin\Debug\Ejercicio_Labo_10.exe
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre tercer parical\Ejercicio Labo 10\Ejercicio Labo 10\bin\Debug\Ejercicio_Labo_10.pdb
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre tercer parical\Ejercicio Labo 10\Ejercicio Labo 10\obj\Debug\Ejercicio Labo 10.csprojAssemblyReference.cache
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre tercer parical\Ejercicio Labo 10\Ejercicio Labo 10\obj\Debug\Ejercicio_Labo_10.exe
+C:\Users\denny\Desktop\Portafolio_POO_01_2020\Pre tercer parical\Ejercicio Labo 10\Ejercicio Labo 10\obj\Debug\Ejercicio_Labo_10.pdb
